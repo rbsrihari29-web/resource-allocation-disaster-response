@@ -17,8 +17,12 @@ The application provides a dashboard-based interface for exploring the processed
 - Data visualization
 - Decision-support insights
 
-## Project Structure
 
+
+
+
+
+## Project Structure
 ```text
 dbs_research/
 │
@@ -28,3 +32,9 @@ dbs_research/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
+## How to Run
+
+pip install streamlit plotly numpy
+streamlit run app.py
+
