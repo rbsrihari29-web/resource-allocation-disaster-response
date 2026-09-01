@@ -33,8 +33,14 @@ dbs_research/
 ├── README.md
 └── .gitignore
 
+```
 ## How to Run
 
+### 1. Install the required dependencies
+```bash
 pip install streamlit plotly numpy
+```
+### 2. Run the application
+```bash
 streamlit run app.py
-
+```
